@@ -1,0 +1,635 @@
+<window>
+	<id>1000</id>
+	<defaultcontrol>6000</defaultcontrol>
+	<type>window</type>
+	<coordinates>
+		<system>1</system>
+		<posx>0</posx>
+		<posy>0</posy>
+	</coordinates>
+    <allowoverlay>no</allowoverlay>
+	<backgroundcolor>black</backgroundcolor>
+    <visible>true</visible>
+
+	<controls>
+
+        <control type="image" id="1001">
+            <posx>0</posx>
+            <posy>0</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="1002">
+            <posx>256</posx>
+            <posy>0</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="1003">
+            <posx>512</posx>
+            <posy>0</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="1004">
+            <posx>768</posx>
+            <posy>0</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="1005">
+            <posx>1024</posx>
+            <posy>0</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="1006">
+            <posx>1280</posx>
+            <posy>0</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="1007">
+            <posx>1536</posx>
+            <posy>0</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="1008">
+            <posx>1792</posx>
+            <posy>0</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+
+
+        <control type="image" id="1501">
+            <posx>0</posx>
+            <posy>0</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="1502">
+            <posx>256</posx>
+            <posy>0</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="1503">
+            <posx>512</posx>
+            <posy>0</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="1504">
+            <posx>768</posx>
+            <posy>0</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="1505">
+            <posx>1024</posx>
+            <posy>0</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="1506">
+            <posx>1280</posx>
+            <posy>0</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="1507">
+            <posx>1536</posx>
+            <posy>0</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="1508">
+            <posx>1792</posx>
+            <posy>0</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+
+
+        <control type="image" id="2001">
+            <posx>0</posx>
+            <posy>256</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="2002">
+            <posx>256</posx>
+            <posy>256</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="2003">
+            <posx>512</posx>
+            <posy>256</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="2004">
+            <posx>768</posx>
+            <posy>256</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="2005">
+            <posx>1024</posx>
+            <posy>256</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="2006">
+            <posx>1280</posx>
+            <posy>256</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="2007">
+            <posx>1536</posx>
+            <posy>256</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="2008">
+            <posx>1792</posx>
+            <posy>256</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+
+
+
+        <control type="image" id="2501">
+            <posx>0</posx>
+            <posy>256</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="2502">
+            <posx>256</posx>
+            <posy>256</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="2503">
+            <posx>512</posx>
+            <posy>256</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="2504">
+            <posx>768</posx>
+            <posy>256</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="2505">
+            <posx>1024</posx>
+            <posy>256</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="2506">
+            <posx>1280</posx>
+            <posy>256</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="2507">
+            <posx>1536</posx>
+            <posy>256</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="2508">
+            <posx>1792</posx>
+            <posy>256</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+
+
+        <control type="image" id="3001">
+            <posx>0</posx>
+            <posy>512</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="3002">
+            <posx>256</posx>
+            <posy>512</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="3003">
+            <posx>512</posx>
+            <posy>512</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="3004">
+            <posx>768</posx>
+            <posy>512</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="3005">
+            <posx>1024</posx>
+            <posy>512</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="3006">
+            <posx>1280</posx>
+            <posy>512</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="3007">
+            <posx>1536</posx>
+            <posy>512</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="3008">
+            <posx>1792</posx>
+            <posy>512</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+
+        <control type="image" id="3501">
+            <posx>0</posx>
+            <posy>512</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="3502">
+            <posx>256</posx>
+            <posy>512</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="3503">
+            <posx>512</posx>
+            <posy>512</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="3504">
+            <posx>768</posx>
+            <posy>512</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="3505">
+            <posx>1024</posx>
+            <posy>512</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="3506">
+            <posx>1280</posx>
+            <posy>512</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="3507">
+            <posx>1536</posx>
+            <posy>512</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="3508">
+            <posx>1792</posx>
+            <posy>512</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+
+        <control type="image" id="4001">
+            <posx>0</posx>
+            <posy>768</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="4002">
+            <posx>256</posx>
+            <posy>768</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="4003">
+            <posx>512</posx>
+            <posy>768</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="4004">
+            <posx>768</posx>
+            <posy>768</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="4005">
+            <posx>1024</posx>
+            <posy>768</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="4006">
+            <posx>1280</posx>
+            <posy>768</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="4007">
+            <posx>1536</posx>
+            <posy>768</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="4008">
+            <posx>1792</posx>
+            <posy>768</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+
+        <control type="image" id="4501">
+            <posx>0</posx>
+            <posy>768</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="4502">
+            <posx>256</posx>
+            <posy>768</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="4503">
+            <posx>512</posx>
+            <posy>768</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="4504">
+            <posx>768</posx>
+            <posy>768</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="4505">
+            <posx>1024</posx>
+            <posy>768</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="4506">
+            <posx>1280</posx>
+            <posy>768</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="4507">
+            <posx>1536</posx>
+            <posy>768</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="4508">
+            <posx>1792</posx>
+            <posy>768</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+
+        <control type="image" id="5001">
+            <posx>0</posx>
+            <posy>1024</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="5002">
+            <posx>256</posx>
+            <posy>1024</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="5003">
+            <posx>512</posx>
+            <posy>1024</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="5004">
+            <posx>768</posx>
+            <posy>1024</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="5005">
+            <posx>1024</posx>
+            <posy>1024</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="5006">
+            <posx>1280</posx>
+            <posy>1024</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="5007">
+            <posx>1536</posx>
+            <posy>1024</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="5008">
+            <posx>1792</posx>
+            <posy>1024</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+
+        <control type="image" id="5501">
+            <posx>0</posx>
+            <posy>1024</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="5502">
+            <posx>256</posx>
+            <posy>1024</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="5503">
+            <posx>512</posx>
+            <posy>1024</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="5504">
+            <posx>768</posx>
+            <posy>1024</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="5505">
+            <posx>1024</posx>
+            <posy>1024</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="5506">
+            <posx>1280</posx>
+            <posy>1024</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="5507">
+            <posx>1536</posx>
+            <posy>1024</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+        <control type="image" id="5508">
+            <posx>1792</posx>
+            <posy>1024</posy>
+            <width>256</width>
+            <height>256</height>
+            <texture></texture>
+        </control>
+
+
+        <control type="image" id="6500">
+            <posx>0</posx>
+            <posy>0</posy>
+            <width>25</width>
+            <height>41</height>
+            <texture></texture>
+        </control>
+
+
+        <control type="group" id="6000">
+            <posx>1772</posx>
+            <posy>20</posy>
+            <width>128</width>
+            <height>128</height>
+
+            <control type="image" id="6001">
+                <width>128</width>
+                <height>128</height>
+                <texture>white-background.png</texture>
+            </control>
+
+            <control type="image" id="6002">
+                <posx>1</posx>
+                <posy>1</posy>
+                <width>126</width>
+                <height>99</height>
+                <texture></texture>
+            </control>
+
+            <control type="label" id="6003">
+                <posx>1</posx>
+                <posy>101</posy>
+                <width>126</width>
+                <height>26</height>
+                <font>font10</font>
+                <label></label>
+                <align>center</align>
+                <aligny>center</aligny>
+                <textcolor>black</textcolor>
+            </control>
+        </control>
+
+	</controls>
+</window>

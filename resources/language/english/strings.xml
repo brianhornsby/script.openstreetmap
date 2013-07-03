@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>	
+	<!--Labels-->
+	<string id="1000"></string>
+	
+	<!--Settings-->
+	<string id="2000">OpenStreetMap</string>
+	<string id="2001">Home Address</string>
+	<string id="2002">Map Type</string>
+	<string id="2003">Map</string>
+	<string id="2004">Satellite</string>
+	<string id="2005">API</string>
+	<string id="2006">OpenStreetMap</string>
+	<string id="2007">MapQuest Open</string>
+	<string id="2008">API Key</string>
+	<string id="2009">Zoom</string>
+	<string id="2010">Hybrid</string>
+
+	<string id="2100">Advanced</string>
+	<string id="2101">Debug</string>
+	
+	<!--Dialogs-->
+	<string id="3000"></string>
+	
+	<!--Notifcations-->
+	<string id="4000"></string>
+	
+</strings>
