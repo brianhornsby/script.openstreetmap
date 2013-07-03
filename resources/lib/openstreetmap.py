@@ -124,21 +124,21 @@ class OpenStreetMap(xbmcgui.WindowXML):
             self._home_column, self._home_row, self._home_pixelx, self._home_pixely = self.deg2num(self._home_lat_deg, self._home_lon_deg, self._zoom)
             self.set_tiles()
 
-        # elif actionid == 122:
-        #     query = utils.keyboard()
-        #     if query and len(query) > 0:
-        #         if self._settings.get('api') == 0:
-        #             osm = mapsapi.OpenStreetMapApi()
-        #         else:
-        #             osm = mapsapi.MapQuestOpenApi()
-        #         response = osm.search(query)
-        #         if len(response) > 0:
-        #             self._home_lat_deg = self._lat_deg = float(response[0]['lat'])
-        #             self._home_lon_deg = self._lon_deg = float(response[0]['lon'])
-        #             self._centre_tilex, self._centre_tiley, self._home_pixelx, self._home_pixely = self.deg2num(self._lat_deg, self._lon_deg, self._zoom)
-        #             self._home_column = self._centre_tilex
-        #             self._home_row = self._centre_tiley
-        #             self.set_tiles()
+        elif actionid == _action_context_menu:
+            query = utils.keyboard()
+            if query and len(query) > 0:
+                if self._settings.get('api') == 0:
+                    osm = mapsapi.OpenStreetMapApi()
+                else:
+                    osm = mapsapi.MapQuestOpenApi()
+                response = osm.search(query)
+                if len(response) > 0:
+                    self._home_lat_deg = self._lat_deg = float(response[0]['lat'])
+                    self._home_lon_deg = self._lon_deg = float(response[0]['lon'])
+                    self._centre_tilex, self._centre_tiley, self._home_pixelx, self._home_pixely = self.deg2num(self._lat_deg, self._lon_deg, self._zoom)
+                    self._home_column = self._centre_tilex
+                    self._home_row = self._centre_tiley
+                    self.set_tiles()
 
     def onFocus(self, controlId):
         #print 'onFocus: %d' % controlId
