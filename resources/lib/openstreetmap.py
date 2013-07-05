@@ -48,6 +48,7 @@ _map_min_zoom = 0
 _control_maptype_image = 6002
 _control_maptype_label = 6003
 _control_marker = 6500
+_control_zoom = 7000
 
 
 class Coordinate:
@@ -175,6 +176,8 @@ class OpenStreetMap(xbmcgui.WindowXML):
         else:
             self.getControl(_control_maptype_label).setLabel('Hybrid')
             self.getControl(_control_maptype_image).setImage('sat.png')
+
+        self.getControl(_control_zoom).setPosition(0, ((18 - self._zoom) * 10) + 22)
 
         tiles_columns = [1, 2, 3, 4, 5, 6, 7, 8]
         tiles_rows = [1, 2, 3, 4, 5]
