@@ -141,7 +141,7 @@ class OpenStreetMap(xbmcgui.WindowXML):
             self.set_tiles()
 
         elif actionid == _action_context_menu:
-            query = utils.keyboard()
+            query = utils.keyboard('', heading=self._settings.get_string(3001))
             if query and len(query) > 0:
                 if self._settings.get('api') == 0:
                     osm = mapsapi.OpenStreetMapApi()
@@ -149,15 +149,24 @@ class OpenStreetMap(xbmcgui.WindowXML):
                     osm = mapsapi.MapQuestOpenApi()
                 response = osm.search(query)
                 if len(response) > 0:
-                    self._home_lat_deg = self._lat_deg = float(
-                        response[0]['lat'])
-                    self._home_lon_deg = self._lon_deg = float(
-                        response[0]['lon'])
-                    self._centre_tilex, self._centre_tiley, self._home_pixelx, self._home_pixely = self.deg2num(
-                        self._lat_deg, self._lon_deg, self._zoom)
-                    self._home_column = self._centre_tilex
-                    self._home_row = self._centre_tiley
-                    self.set_tiles()
+                    index = 0
+                    if len(response) > 1:
+                        displaynames = []
+                        for result in response:
+                            displaynames.append(result['display_name'])
+                        index = utils.select(self._settings.get_string(3002), displaynames)
+                    if index >= 0 and index < len(response):
+                        self._home_lat_deg = self._lat_deg = float(
+                            response[index]['lat'])
+                        self._home_lon_deg = self._lon_deg = float(
+                            response[index]['lon'])
+                        self._centre_tilex, self._centre_tiley, self._home_pixelx, self._home_pixely = self.deg2num(
+                            self._lat_deg, self._lon_deg, self._zoom)
+                        self._home_column = self._centre_tilex
+                        self._home_row = self._centre_tiley
+                        self.set_tiles()
+                else:
+                    utils.ok(self._settings.get_string(3000), self._settings.get_string(3003) % query, self._settings.get_string(3004))
 
     def onFocus(self, controlId):
         # print 'onFocus: %d' % controlId

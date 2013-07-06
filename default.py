@@ -64,9 +64,9 @@ if (__name__ == '__main__'):
     log_debug('Home: %s' % _home)
 
     response = get_geolocation()
-    city = response['cityName']
-    region = response['regionName']
-    country = response['countryName']
+    city = response['cityName'] if response else ''
+    region = response['regionName'] if response else ''
+    country = response['countryName'] if response else ''
 
     if _home is None or len(_home) == 0:
         _home = None
@@ -82,6 +82,9 @@ if (__name__ == '__main__'):
                 _home = country
             else:
                 _home = '%s, %s' % (_home, country)
+
+    if _home is None or len(_home) == 0:
+        _home = 'Cadnam, Hampshire, UK'
 
     if _api == 0:
         osm = mapsapi.OpenStreetMapApi()

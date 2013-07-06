@@ -23,7 +23,11 @@
 	<string id="2101">Debug</string>
 	
 	<!--Dialogs-->
-	<string id="3000"></string>
+	<string id="3000">OpenStreetMap Search</string>
+	<string id="3001">Search for an address or landmark</string>
+	<string id="3002">OpenStreetMap Search Results</string>
+	<string id="3003">Sorry we couldn't find '%s'.</string>
+	<string id="3004">Try making your search term more specific.</string>
 	
 	<!--Notifcations-->
 	<string id="4000"></string>
