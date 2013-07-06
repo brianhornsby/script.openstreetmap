@@ -18,6 +18,11 @@
 	<string id="2011">Standard</string>
 	<string id="2012">Cycle</string>
 	<string id="2013">Transport</string>
+	<string id="2014">Marker Colour</string>
+	<string id="2015">Blue</string>
+	<string id="2016">Green</string>
+	<string id="2017">Red</string>
+	<string id="2018">Yellow</string>
 
 	<string id="2100">Advanced</string>
 	<string id="2101">Debug</string>

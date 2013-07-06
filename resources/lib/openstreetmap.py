@@ -219,6 +219,16 @@ class OpenStreetMap(xbmcgui.WindowXML):
                 self._settings.get_string(2010))
             self.getControl(_control_maptype_image).setImage('sat.png')
 
+        markercolour = self._settings.get('markercolour')
+        if markercolour == 1:
+            markercolour = 'green'
+        elif markercolour == 2:
+            markercolour = 'red'
+        elif markercolour == 3:
+            markercolour = 'yellow'
+        else:
+            markercolour = 'blue'
+
         self.getControl(_control_zoom).setPosition(
             0, ((18 - self._zoom) * 10) + 22)
 
@@ -240,7 +250,7 @@ class OpenStreetMap(xbmcgui.WindowXML):
                 if self._home_column == coordinate.column and self._home_row == coordinate.row:
                     control.setPosition(((column - 1) * 256) + self._home_pixelx - 12, (
                         (row - 1) * 256) + self._home_pixely - 41)
-                    control.setImage('marker-blue.png')
+                    control.setImage('marker-%s.png' % markercolour)
 
     def close(self):
         super(OpenStreetMap, self).close()

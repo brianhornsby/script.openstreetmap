@@ -6,6 +6,7 @@
 		<setting id="layertype" type="enum" label="2002" default="0" lvalues="2011|2012|2013|2003|2004|2010"/>
 		<setting id="api" type="enum" label="2005" default="0" lvalues="2006|2007"/>
 		<!--setting id="apikey" type="text" label="2008" default="" enable="!eq(-1,0)"/-->
+		<setting id="markercolour" type="enum" label="2014" default="0" lvalues="2015|2016|2017|2018"/>
 	</category>
 	<category label="2100">
 		<setting id="debug" type="bool" label="2101" default="false"/>
