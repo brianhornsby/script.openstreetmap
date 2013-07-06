@@ -642,7 +642,7 @@
         </control>
 
 
-        <!-- Map type (map/satellite/hybrid) -->
+        <!-- Layer type (standard/cycle/transport/mapquest/satellite/hybrid) -->
         <control type="group" id="6000">
             <posx>1772</posx>
             <posy>20</posy>
@@ -652,7 +652,7 @@
             <control type="image" id="6001">
                 <width>128</width>
                 <height>128</height>
-                <texture>maptype-background.png</texture>
+                <texture>layertype-background.png</texture>
             </control>
 
             <control type="image" id="6002">

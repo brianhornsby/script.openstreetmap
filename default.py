@@ -39,7 +39,7 @@ _path = _settings.get_path()
 _home = _settings.get('home')
 _api = _settings.get('api')
 _zoom = int(_settings.get('zoom'))
-_maptype = int(_settings.get('maptype'))
+_layertype = int(_settings.get('layertype'))
 
 
 def log_debug(msg):
@@ -93,6 +93,6 @@ if (__name__ == '__main__'):
         lon_deg = float(response[0]['lon'])
 
     openstreetmap = openstreetmap.OpenStreetMap(
-        'openstreetmap.xml', _path, lat_deg=lat_deg, lon_deg=lon_deg, zoom=_zoom, maptype=_maptype)
+        'openstreetmap.xml', _path, lat_deg=lat_deg, lon_deg=lon_deg, zoom=_zoom, layertype=_layertype)
     openstreetmap.doModal()
     del openstreetmap
