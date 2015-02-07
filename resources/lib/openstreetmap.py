@@ -1,8 +1,8 @@
 #/*
 # *
-# * OpenStreetMap for XBMC
+# * OpenStreetMap for Kodi
 # *
-# * Copyright (C) 2013 Brian Hornsby
+# * Copyright (C) 2015 Brian Hornsby
 # *
 # * This program is free software: you can redistribute it and/or modify
 # * it under the terms of the GNU General Public License as published by

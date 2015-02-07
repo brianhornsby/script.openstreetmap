@@ -1,8 +1,8 @@
 #/*
 # *
-# * OpenStreetMap for XBMC
+# * OpenStreetMap for Kodi
 # *
-# * Copyright (C) 2013 Brian Hornsby
+# * Copyright (C) 2015 Brian Hornsby
 # *
 # * This program is free software: you can redistribute it and/or modify
 # * it under the terms of the GNU General Public License as published by
@@ -37,7 +37,7 @@ class request():
             url = self.endpoint if self.endpoint else params.pop('url')
             params = urllib.urlencode(params)
             url = "%s%s?%s" % (self.apiurl, url, params)
-            headers = {'User-Agent': 'OpenStreetMap for XBMC'}
+            headers = {'User-Agent': 'OpenStreetMap for Kodi'}
             req = urllib2.Request(url, None, headers)
             response = urllib2.urlopen(url).read()
             return simplejson.loads(response)
