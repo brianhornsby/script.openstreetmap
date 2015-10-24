@@ -1,4 +1,4 @@
-OpenStreetMap for XBMC
+OpenStreetMap for Kodi
 ======================
 
-A script that allows access to OpenStreetMap on XBMC.
+A script that allows access to OpenStreetMap on Kodi.
