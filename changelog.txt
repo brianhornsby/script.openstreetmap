@@ -1,3 +1,7 @@
+*** 0.3.0 ***
+
+Replaced XBMC with Kodi where required.
+
 *** 0.2.0 ***
 
 Initial release.
