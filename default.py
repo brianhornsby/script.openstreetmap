@@ -23,7 +23,7 @@ import simplejson
 import sys
 import urllib2
 import resources.lib.mapsapi as mapsapi
-import resources.lib.xbmcsettings as settings
+import resources.lib.kodisettings as settings
 import resources.lib.openstreetmap as openstreetmap
 
 # Set some global values.

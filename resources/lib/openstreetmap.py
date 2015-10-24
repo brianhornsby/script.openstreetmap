@@ -24,8 +24,8 @@ import random
 import sys
 import xbmcgui
 import resources.lib.mapsapi as mapsapi
-import resources.lib.xbmcsettings as settings
-import resources.lib.xbmcutils as utils
+import resources.lib.kodisettings as settings
+import resources.lib.kodiutils as utils
 
 _addonid = 'script.openstreetmap'
 
